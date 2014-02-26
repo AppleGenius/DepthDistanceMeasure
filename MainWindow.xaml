@@ -1,0 +1,11 @@
+﻿<Window x:Class="DepthDistanceMeasure.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="KinectDepthImage" Height="600" Width="1280" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Image x:Name="DepthImage"  Width="640" Height="480" MouseLeftButtonUp="DepthImage_MouseLeftButtonUp" ></Image>
+            <TextBlock x:Name="PixelDepth" FontSize="48" HorizontalAlignment="Left" />
+        </StackPanel>
+    </Grid>
+</Window>
